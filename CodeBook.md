@@ -1,7 +1,10 @@
-Variables
+---
+output: html_document
+---
+<b>Variables</b>
 
-The tidy.txt file produced includes 88 varibles with names as list below:
-
+The tidy.txt file produced includes 88 varibles with names as list below:<p>
+<code>
 "Subject"                           "Activity"                          "tBodyAccMeanX"                    
 "tBodyAccMeanY"                     "tBodyAccMeanZ"                     "tBodyAccstdX"                     
 "tBodyAccstdY"                      "tBodyAccstdZ"                      "tGravityAccMeanX"                 
@@ -32,21 +35,24 @@ The tidy.txt file produced includes 88 varibles with names as list below:
 "angletBodyAccMeangravity"          "angletBodyAccJerkMeangravityMean"  "angletBodyGyroMeangravityMean"    
 "angletBodyGyroJerkMeangravityMean" "angleXgravityMean"                 "angleYgravityMean"                
 "angleZgravityMean"
+</code>
 
-
-The Data
+<b>The Data</b>
 
 All varibles with "Mean" in the name is the "mean" of the original measuresments (with similar names) as grouped
 by Subject/Activity grouping.  For example, "tBodyAccMeanY" is the "mean" of all the values for Subject "N", performing
 Activity "X" from the original measurement "tBodyAcc-mean()-X".
 
-For a complete list of the original measurements with decsriptions see this files:
-- 'features_info.txt': Shows information about the variables used on the feature vector.
-- 'features.txt': List of all features
-from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+For a complete list of the original measurements with decsriptions see this files: (from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)<p>
+<list>
+<li>'features_info.txt': Shows information about the variables used on the feature vector.</li>
+<li>'features.txt': List of all features</li>
+</list>
 
 
-Transformations
+
+
+<b>Transformations</b>
 
 For each varible derived from measuresments (excludes Subject and Activity) is the "mean" of the original measuresments as grouped
 for that Subject/Activity grouping.
