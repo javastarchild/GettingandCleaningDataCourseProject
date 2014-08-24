@@ -4,7 +4,7 @@ output: html_document
 <b>Variables</b>
 
 The tidy.txt file produced includes 88 varibles with names as list below:<p>
-<code>1 "Subject"                           
+<pre>1 "Subject"                           
 2 "Activity"                          
 3 "tBodyAccMeanX"                    
 4 "tBodyAccMeanY"                     
@@ -92,7 +92,7 @@ The tidy.txt file produced includes 88 varibles with names as list below:<p>
 86 "angleXgravityMean"                 
 87 "angleYgravityMean"                
 88 "angleZgravityMean"
-</code>
+</pre>
 
 <b>The Data</b>
 
