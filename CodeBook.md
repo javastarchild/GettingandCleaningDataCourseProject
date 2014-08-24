@@ -44,10 +44,10 @@ by Subject/Activity grouping.  For example, "tBodyAccMeanY" is the "mean" of all
 Activity "X" from the original measurement "tBodyAcc-mean()-X".
 
 For a complete list of the original measurements with decsriptions see this files: (from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)<p>
-<list>
+<ul>
 <li>'features_info.txt': Shows information about the variables used on the feature vector.</li>
 <li>'features.txt': List of all features</li>
-</list>
+</ul>
 
 
 
