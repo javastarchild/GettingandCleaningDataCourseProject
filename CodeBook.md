@@ -1,6 +1,3 @@
----
-output: html_document
----
 <b>Variables</b>
 
 The tidy.txt file produced includes 88 varibles with names as list below:<p>
